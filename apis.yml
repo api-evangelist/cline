@@ -1,7 +1,7 @@
 aid: cline
 url: https://raw.githubusercontent.com/api-evangelist/cline/refs/heads/main/apis.yml
 name: Cline
-x-type: company
+kind: company
 description: >-
   Cline (formerly Claude Dev) is an open-source autonomous coding agent. The Cline VS Code
   extension has 5M+ installs; JetBrains is in early access; the Cline CLI is also available.
