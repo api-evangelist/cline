@@ -94,6 +94,8 @@ apis:
       - type: Sales
         url: https://cline.bot/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/clinebot
   - type: Website
     url: https://cline.bot/
   - type: GitHub
