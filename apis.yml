@@ -108,6 +108,8 @@ common:
     url: rate-limits/cline-rate-limits.yml
   - type: FinOps
     url: finops/cline-finops.yml
+  - type: LLMsTxt
+    url: https://docs.cline.bot/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
