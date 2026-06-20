@@ -8,7 +8,7 @@ description: >-
   Edits files, runs commands, uses the browser, and federates to multiple LLM providers.
   An MCP Marketplace extends Cline with custom tools. There is also a hosted/managed offering
   (Cline.bot) with free and paid tiers plus enterprise sales.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - Developer Tools
@@ -28,7 +28,7 @@ apis:
       Open-source autonomous coding agent for VS Code. Reads/writes files, runs commands,
       browses the web, calls MCP tools, and connects to LLM providers (Anthropic, OpenAI,
       Google, OpenRouter, Ollama, etc.).
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
     baseURL: https://cline.bot
     tags:
@@ -44,7 +44,7 @@ apis:
   - aid: cline:jetbrains
     name: Cline JetBrains Plugin
     description: Early-access JetBrains plugin offering the same agent surfaces.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
     baseURL: https://cline.bot
     tags:
@@ -57,7 +57,7 @@ apis:
   - aid: cline:cli
     name: Cline CLI
     description: Headless terminal version of the Cline agent.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
     baseURL: https://cline.bot
     tags:
@@ -69,7 +69,7 @@ apis:
   - aid: cline:mcp-marketplace
     name: Cline MCP Marketplace
     description: Marketplace for MCP servers/tools that extend the Cline agent.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
     baseURL: https://cline.bot
     tags:
@@ -82,7 +82,7 @@ apis:
   - aid: cline:hosted
     name: Cline Hosted (Cline.bot)
     description: Hosted/managed Cline product with free and paid tiers plus enterprise sales.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
     baseURL: https://cline.bot
     tags:
