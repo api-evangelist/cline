@@ -89,7 +89,7 @@ apis:
       - Hosted
       - SaaS
     properties:
-      - type: SignUp
+      - type: Signup
         url: https://cline.bot/
       - type: Sales
         url: https://cline.bot/
@@ -108,7 +108,7 @@ common:
     url: rate-limits/cline-rate-limits.yml
   - type: FinOps
     url: finops/cline-finops.yml
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.cline.bot/llms.txt
 maintainers:
   - FN: Kin Lane
