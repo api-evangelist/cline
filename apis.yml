@@ -94,6 +94,10 @@ apis:
       - type: Sales
         url: https://cline.bot/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/cline-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/cline-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/clinebot
   - type: Website
