@@ -22,6 +22,15 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cline.png
 tags:
+  - Artificial Intelligence
+  - Developer Tools
+  - Agents
+  - VS Code
+  - JetBrains
+  - CLI
+  - MCP
+  - Open-Source
+tags_raw:
   - AI
   - Developer Tools
   - Agent
@@ -45,6 +54,11 @@ apis:
     baseURL: https://cline.bot
     tags:
       - VS Code
+      - Agents
+      - Open-Source
+      - MCP
+    tags_raw:
+      - VS Code
       - Agent
       - Open Source
       - MCP
@@ -61,6 +75,10 @@ apis:
     baseURL: https://cline.bot
     tags:
       - JetBrains
+      - Agents
+      - Beta
+    tags_raw:
+      - JetBrains
       - Agent
       - Beta
     properties:
@@ -73,6 +91,9 @@ apis:
     humanURL: https://cline.bot/
     baseURL: https://cline.bot
     tags:
+      - CLI
+      - Agents
+    tags_raw:
       - CLI
       - Agent
     properties:
@@ -98,6 +119,9 @@ apis:
     humanURL: https://cline.bot/
     baseURL: https://cline.bot
     tags:
+      - Hosted
+      - Software-as-a-Service
+    tags_raw:
       - Hosted
       - SaaS
     properties:
