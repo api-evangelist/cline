@@ -8,6 +8,17 @@ description: >-
   Edits files, runs commands, uses the browser, and federates to multiple LLM providers.
   An MCP Marketplace extends Cline with custom tools. There is also a hosted/managed offering
   (Cline.bot) with free and paid tiers plus enterprise sales.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
