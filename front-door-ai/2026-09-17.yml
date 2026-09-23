@@ -1,0 +1,31 @@
+# Front Door AI Index — cline — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: cline
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: cline.bot
+  final_host: cline.bot
+  ownership: own
+  owner: cline
+  shares_host_with:
+  - clinerules
+  inherited_from: null
+  verdict: scored
+  score: 13
+  host_score: 13
+  density: 28.32
+  words: 459
+  tiers:
+    agentic: 4
+    core: 5
+    model: 4
+  ambiguous: 10
+  top_terms:
+    agent: 10
+    AI: 5
+    MCP: 4
+    OpenAI: 2
+    GPT: 1
+    Gemini: 1
