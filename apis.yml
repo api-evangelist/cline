@@ -9,15 +9,21 @@ description: >-
   An MCP Marketplace extends Cline with custom tools. There is also a hosted/managed offering
   (Cline.bot) with free and paid tiers plus enterprise sales.
 deliveryModel:
-  model: saas
-  open_source: false
+  model: open-core
+  license: Apache-2.0
+  license_evidence:
+    repo: cline/cline
+    spdx: Apache-2.0
+    stars: 69281
+  open_source: true
   commercial: true
   callable_host: false
-  label: Hosted service · you call their endpoint
+  label: Open core · an OSS project plus a commercial hosted product
   confidence: medium
   source:
   - pricing
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -32,6 +38,10 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cline.png
+x-docs-platform: mintlify
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-24
+x-docs-hosting: vercel
 tags:
   - Artificial Intelligence
   - Developer Tools
@@ -40,7 +50,7 @@ tags:
   - JetBrains
   - CLI
   - MCP
-  - Open-Source
+  - Open Source
 tags_raw:
   - AI
   - Developer Tools
@@ -50,6 +60,7 @@ tags_raw:
   - CLI
   - MCP
   - Open Source
+  - Open-Source
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.23'
@@ -62,17 +73,17 @@ apis:
       Google, OpenRouter, Ollama, etc.).
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
-    baseURL: https://cline.bot
     tags:
       - VS Code
       - Agents
-      - Open-Source
+      - Open Source
       - MCP
     tags_raw:
       - VS Code
       - Agent
       - Open Source
       - MCP
+      - Open-Source
     properties:
       - type: GitHub
         url: https://github.com/cline/cline
@@ -83,7 +94,6 @@ apis:
     description: Early-access JetBrains plugin offering the same agent surfaces.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
-    baseURL: https://cline.bot
     tags:
       - JetBrains
       - Agents
@@ -100,7 +110,6 @@ apis:
     description: Headless terminal version of the Cline agent.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
-    baseURL: https://cline.bot
     tags:
       - CLI
       - Agents
@@ -115,7 +124,6 @@ apis:
     description: Marketplace for MCP servers/tools that extend the Cline agent.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
-    baseURL: https://cline.bot
     tags:
       - MCP
       - Marketplace
@@ -128,7 +136,6 @@ apis:
     description: Hosted/managed Cline product with free and paid tiers plus enterprise sales.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://cline.bot/
-    baseURL: https://cline.bot
     tags:
       - Hosted
       - Software-as-a-Service
