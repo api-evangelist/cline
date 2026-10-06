@@ -62,7 +62,7 @@ tags_raw:
   - Open Source
   - Open-Source
 created: '2026-05-08'
-modified: '2026-05-08'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: cline:vscode
@@ -148,6 +148,8 @@ apis:
       - type: Sales
         url: https://cline.bot/
 common:
+  - url: https://cline.bot/blog
+    type: Blog
   - type: VulnerabilityDisclosure
     url: security/cline-vulnerability-disclosure.yml
   - type: DomainSecurity
