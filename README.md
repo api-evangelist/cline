@@ -1,4 +1,4 @@
-# Cline (cline)
+# Cline
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,44 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cline (formerly Claude Dev) is an open-source autonomous coding agent. The Cline VS Code extension has 5M+ installs; JetBrains is in early access; the Cline CLI is also available. Edits files, runs commands, uses the browser, and federates to multiple LLM providers. An MCP Marketplace extends Cline with custom tools.
+Cline (formerly Claude Dev) is an open-source autonomous coding agent. The Cline VS Code extension has 5M+ installs; JetBrains is in early access; the Cline CLI is also available. Edits files, runs commands, uses the browser, and federates to multiple LLM providers. An MCP Marketplace extends Cline with custom tools. There is also a hosted/managed offering (Cline.bot) with free and paid tiers plus enterprise sales.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/cline/refs/heads/main/apis.yml)
+**Areas:** Artificial Intelligence · Developer Tools · Agents · VS Code · JetBrains · CLI · MCP · Open Source
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=cline-api-evangelist&utm_content=repo)
+## Cline on APIs.io
 
-## Type
-- **x-type:** company
+Everything profiled for Cline is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cline/](https://apis.io/providers/cline/)** — or go straight to one of the APIs or properties below.
 
-## Tags
-- AI, Developer Tools, Agent, VS Code, JetBrains, CLI, MCP, Open Source
+### APIs (5)
 
-## APIs
-- **Cline VS Code Extension** — Open-source agent. BYO LLM (Anthropic, OpenAI, Google, OpenRouter, Ollama). [GitHub](https://github.com/cline/cline) · [Docs](https://docs.cline.bot/)
-- **Cline JetBrains Plugin** — Early access.
-- **Cline CLI** — Headless terminal agent.
-- **Cline MCP Marketplace** — MCP servers/tools that extend the agent.
-- **Cline Hosted (Cline.bot)** — SaaS with free + paid tiers and enterprise sales.
+- [Cline VS Code Extension](https://apis.io/apis/cline/vscode/) — Open-source autonomous coding agent for VS Code. Reads/writes files, runs commands, browses the web, calls MCP tools, and connects to LLM providers…
+- [Cline JetBrains Plugin](https://apis.io/apis/cline/jetbrains/) — Early-access JetBrains plugin offering the same agent surfaces.
+- [Cline CLI](https://apis.io/apis/cline/cli/) — Headless terminal version of the Cline agent.
+- [Cline MCP Marketplace](https://apis.io/apis/cline/mcp-marketplace/) — Marketplace for MCP servers/tools that extend the Cline agent.
+- [Cline Hosted (Cline.bot)](https://apis.io/apis/cline/hosted/) — Hosted/managed Cline product with free and paid tiers plus enterprise sales.
 
-## Plans, Rate Limits, FinOps
-- [Plans](plans/cline-plans-pricing.yml) — Open-source extensions are free; Cline.bot hosted has free + paid; LLM costs pass through to user's chosen provider unless using Cline-managed credits.
-- [RateLimits](rate-limits/cline-rate-limits.yml) — Inherits chosen LLM provider's limits.
-- [FinOps](finops/cline-finops.yml) — Cost lives mostly with the LLM provider; Cline.bot subscription is incremental.
+### Published properties
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Common Properties
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [Moved to /providers/cline/](https://apis.io/servers/cline/cline/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cline Domain Security](https://apis.io/security/cline/cline-domain-security/)
+- [Cline Vulnerability Disclosure](https://apis.io/security/cline/cline-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Cline Plans Pricing](https://apis.io/plans/cline/cline-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cline Rate Limits](https://apis.io/rate-limits/cline/cline-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Cline Finops](https://apis.io/finops/cline/cline-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://cline.bot/)
-- [GitHub](https://github.com/cline/cline)
 - [Documentation](https://docs.cline.bot/)
+- [Blog](https://cline.bot/blog)
 
-## Notes
-- Cline does not expose a public REST inference API; agent behavior is invoked through the editor extensions and CLI.
-- No public OpenAPI spec discovered.
+## API Evangelist rating
 
-## Maintainers
-**FN:** Kin Lane
+**Kin Score 15.3** — emerging · rubric 0.25.0 · scored 2026-10-23
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 9.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 10.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cline/](https://apis.io/providers/cline/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cline: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cline/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
